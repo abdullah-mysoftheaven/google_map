@@ -84,7 +84,7 @@ class _GoogleMapFlutterState extends State<GoogleMapFlutter> {
 
    }
 
-   ///custom info windows  end....................................................................................................
+   ///custom info windows end....................................................................................................
 
 
    @override
