@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'google_map.dart';
+import 'google_map_custom_marker.dart';
 import 'google_map_polygon.dart';
 import 'google_map_polyline.dart';
 
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:   const GoogleMapPolylineFlutter(),
+      home:   const GoogleMapCustomMarkerFlutter(),
     );
   }
 
